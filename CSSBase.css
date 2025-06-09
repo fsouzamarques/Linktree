@@ -1,0 +1,83 @@
+.ShortText {
+    color: #3a3a3a;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  body{
+    background-color: #d8d8d8;
+  }
+  
+  .Header1 {
+    color: #242424;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+  }
+  
+  .Description {
+    color: #242424;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .LinkedIn{
+padding: 18px 25px;
+width: 50%;
+text-align: left;
+background-color: white;
+border: 0px solid #242424;
+border-color: #242424;
+border-radius: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+transition-duration: 0.4ms;
+  }
+
+
+  .LinkedIn:hover{
+    background-color: rgb(211, 100, 9);
+    border: 0px;
+    color: #ffffff;
+    font-weight: 900;
+  }
+
+  .ProfilePic{
+    border-radius: 100%;
+    border: 5px solid rgb(211, 100, 9);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 70px; 
+    z-index: 100;
+    position:relative;   
+    }
+
+   
+
+
+    .social-icons {
+      display: flex;
+      gap: 10px; /* space between icons */
+      justify-content: center; /* center horizontally */
+      align-items: center; /* align vertically */
+      margin-bottom: 20px;
+      margin-top: -15px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
