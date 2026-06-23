@@ -11,7 +11,7 @@
   .Header1 {
     color: #242424;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-style: bold;
+    font-weight: bold;
     text-align: center;
   }
   
@@ -34,6 +34,9 @@ margin-left: auto;
 margin-right: auto;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 transition-duration: 0.4ms;
+display: block;
+text-decoration: none;
+color: #242424;
   }
 
 
@@ -66,10 +69,15 @@ transition-duration: 0.4ms;
       align-items: center; /* align vertically */
       margin-bottom: 20px;
       margin-top: -15px;
+
     }
     
 
-
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
