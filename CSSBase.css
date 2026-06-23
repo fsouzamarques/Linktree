@@ -1,62 +1,69 @@
-.ShortText {
-    color: #3a3a3a;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-align: center;
-  }
   
   body{
     background-color: #d8d8d8;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    min-height: 100vh;
+    @media only screen and (max-width: 600px) {
+  .container {
+    padding-inline: 16px; 
+  }
+}
+
   }
   
   .Header1 {
     color: #242424;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
+    line-height: 1.0;
   }
   
   .Description {
     color: #242424;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
+    line-height: 1.2;
+     margin-top: -10px;
+      margin-bottom: 30px;
   }
   
   .LinkedIn{
 padding: 18px 25px;
-width: 50%;
+width: 100%;
 text-align: left;
 background-color: white;
-border: 0px solid #242424;
-border-color: #242424;
-border-radius: 25px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-transition-duration: 0.4ms;
+border-radius: 20px;
+margin: 0 auto 15px;
 display: block;
 text-decoration: none;
 color: #242424;
+transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+max-width: 400px;
+box-sizing: border-box;
+font-weight: 600;
+line-height: 1.4;
+min-height: 50px;
+
   }
 
 
   .LinkedIn:hover{
     background-color: rgb(211, 100, 9);
-    border: 0px;
     color: #ffffff;
-    font-weight: 900;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .ProfilePic{
-    border-radius: 100%;
+    border-radius: 50%;
     border: 5px solid rgb(211, 100, 9);
+    max-width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
     margin-top: 70px; 
-    z-index: 100;
-    position:relative;   
+    width: clamp(180px, 35vw, 200px);
     }
 
    
@@ -64,22 +71,24 @@ color: #242424;
 
     .social-icons {
       display: flex;
-      gap: 10px; /* space between icons */
-      justify-content: center; /* center horizontally */
-      align-items: center; /* align vertically */
-      margin-bottom: 20px;
-      margin-top: -15px;
+      gap: 16px; 
+      justify-content: center; 
+      align-items: center; 
+      margin-bottom: 24px;
 
     }
+
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
     
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
 
 
 
